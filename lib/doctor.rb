@@ -14,7 +14,11 @@ attr_accessor :name, :appointment, :patient
   end 
 
   def new_appointment (date, patient) 
+<<<<<<< HEAD
     Appointment.new(patient, date, self)
+=======
+    Appointment.new(date, patient, self)
+>>>>>>> cdc49a192607efd5cbe000dc3cf33583a417d28d
     
   end   
   
@@ -31,7 +35,11 @@ attr_accessor :name, :appointment, :patient
   def patients 
     appointments.map do |appointment| 
      
+<<<<<<< HEAD
     appointment.patient 
+=======
+    appointment.date 
+>>>>>>> cdc49a192607efd5cbe000dc3cf33583a417d28d
     end 
   end 
   

@@ -34,7 +34,7 @@ attr_accessor :name
     self.songs.map do |song| 
       song.genre
     end 
-    
+   
   end 
   
      
